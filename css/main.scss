@@ -1,0 +1,311 @@
+$light-grey: #f5f7fa;
+$darker-grey: #ebeff3;
+$solid-border: 2px solid;
+$light-grey-text: #a5adb3;
+$grey: #e6e9eb;
+$darker-green: #b9d592;
+$lighter-green: #d7e8ba;
+$white: #fff;
+
+$font-family: Lucida\ Grande,Lucida\ Sans,Tahoma,Lucida\ Sans\ Unicode,Verdana,Geneva,sans-serif;
+
+
+html {
+    padding: 0;
+    margin: 0;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: #f8f9fb;
+}
+.main-header {
+    background-color: $light-grey;
+    border: $solid-border $darker-grey; 
+
+    ul {
+        li {
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 22px;
+
+            a {
+                text-decoration: none;
+                color: $light-grey-text;
+                font-size: 15px;
+
+            }
+        }
+    }
+    .cart-right {
+        padding-top: 13px;
+        text-align: right;
+    }
+    .cart-counter {
+        background-color: $darker-green;
+        color: $white;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+    }
+}
+.s-header-left {
+    display: flex;
+}
+
+
+
+.loyalty-transactions {
+    padding: 16px 8px;
+    .points-icon {
+        vertical-align: middle;
+        padding-right: 9px;
+    }
+    p {
+        font-size: 12px;
+        color: #76828c;
+    }
+}
+.search-ask {
+    .question {
+        float: right;
+        margin-top: 21px;
+    }
+
+    .search-box {
+        float: left;
+        margin-left: 137px;
+        .input {
+            background: $darker-grey;
+            border: 1px solid $white;
+            padding: 17px 41px 16px 34px;
+            border-radius: 30px;
+        }
+        a.search {
+            background: url('../images/common_icons.png') 0 -3465px no-repeat;
+            display: inline-block;
+            position: relative;
+            height: 48px;
+            width: 48px;
+            top: 19px;
+            right: 57px;
+    
+            span {
+                display: none;
+            }
+            .search {
+                text-indent: -9999px;
+                z-index: 10;
+                top: 0;
+            }
+        }
+    }
+    
+    .question-button {
+        background: $white;
+        border: $solid-border $darker-grey;
+        color: #868d92;
+        height: 42px;
+        display: flex;
+        width: 190px;
+        border-radius: 25px;
+        padding: 8px 8px 8px 20px;
+        text-decoration: none;
+        font-size: 14px;
+
+        img, span {
+            float: left;
+            padding-left: 14px;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 21px;
+        } 
+    }
+}
+.banner-section {
+    padding: 60px 0 10px;
+
+    .bx-wrapper {
+        background: transparent;
+        box-shadow: 0 0 0 0;
+        border: none;
+        margin: 0 auto;
+
+        .slider {
+            margin: 0 auto;
+        }
+    }
+    .bx-pager {
+        display: none;
+    }
+}
+.filter-bar {
+    background: $lighter-green;
+    border-radius: 5px;
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            list-style-type: none;
+            display: inline-block;
+            border-right: 1px solid #cedbb8;
+            padding: 18px 20px;
+            color: #7f8c76;
+            text-transform: uppercase;
+
+            &::after {
+                content: " """;
+                background-image: url("../images/filter-arrow-green.png");
+                background-repeat: no-repeat;
+                width: 33px;
+                height: 33px;
+                position: relative;
+                padding: 11px;
+                top: 16px;
+                left: 10px;
+            }
+        }
+     
+    }
+}
+.extra-marging {
+    margin-right: 85px;
+}
+.products-section {
+    padding: 66px 0;
+
+.product-card {
+    background: $white;
+    padding: 10px;
+
+    &:last-of-type {
+        padding-right: 10px !important;
+    }
+   
+    .price {
+        font-size: 25px;
+        color: #76828c;
+        padding-right: 10px; 
+        float: left;
+        
+        p {
+            margin-top: 0;
+        }
+    }
+    .product-add-button {
+        background-color: #999999;
+        width: 99px;
+        height: 40px;
+        padding: 8px;
+        float: right;
+
+        .product-add-button,.add-product {
+            cursor: pointer;
+        }
+        
+
+        img {
+            width: 20px;
+        }
+        button {
+            background: none;
+            border: none;
+        }
+        .remove-product {
+            float: right;
+            margin-top: 5px;
+        }
+    }
+    .product-image {
+        img {
+            width: 100%;
+        }
+        
+    }
+    .product-cat {
+        color: #a5adb3;
+        font-size: 16px;
+        p {
+            margin-top: 5px;
+        }
+    }
+    .product-name {
+        margin: 10px 0;
+        color: #7a8187;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .wishlist {
+        a {
+        padding-left: 20px!important;    
+        color: #76828c!important;
+        font-size: 11px!important;
+        font-weight: 600;
+        text-decoration: none;
+        }
+    }
+}
+}
+
+.footer-section {
+    background-color: $grey;
+    padding: 45px 0;
+
+    .footer-nav-columns {
+        margin-right: 121px;
+
+        .footer-nav-headings {
+            font-size: 19px;
+            font-weight: 700;
+            color: #76828c;
+    
+        }
+    }
+
+    
+
+    .footer-nav {
+        display: flex;
+        padding-bottom: 40px;
+
+        ul {
+            padding-left: 0;
+            li {
+                list-style-type: none;
+                margin-bottom: 14px;
+
+                a {
+                    text-decoration: none;
+                    color: #76828c;
+                    font-size: 12px;
+
+                }
+            }
+        }
+    }
+    .footer-social-icons {
+        a {
+            color: #76828c;
+            padding-right: 10px;
+        }
+    }
+    .footer-bottom-imgs {
+    
+        .footer-block-image {
+            display: inline-block;
+            margin-right: 48px;
+            vertical-align: middle;
+
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+}

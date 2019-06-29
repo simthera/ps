@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Skin Renewal Gift Voucher",
+        "price": "R100.00 – R5,000.00",
+        "thumbanil": "images/Skin-Renewal-Gift-Voucher-300x300.jpg",
+        "category": "Gift Vouchers"
+    },{
+        "name": "Lemelle",
+        "price": "R130.00",
+        "thumbanil": "images/Lamelle-Clarity-Active-Control-300x300.jpg",
+        "category": ""
+    },
+    {
+        "name": "Alpha Lipoic Acid",
+        "price": "R175.00d",
+        "thumbanil": "images/Alpha-Lipoic-Acid-300x300.jpg",
+        "category": "Oral Supplement"
+    },
+    {
+        "name": "Apple Cider Vinegar",
+        "price": "R175.00",
+        "thumbanil": "images/Apple-Cider-Vinegar-300x300.jpg",
+        "category": "Oral Supplement"
+    }
+]
