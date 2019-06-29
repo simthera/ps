@@ -5,7 +5,8 @@ html {
 body {
   min-height: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .main {
   background-color: #f8f9fb; }
@@ -87,7 +88,7 @@ body {
   .search-ask .question-button img, .search-ask .question-button span {
     float: left;
     padding-left: 14px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 21px; }
 
@@ -103,38 +104,42 @@ body {
   .banner-section .bx-pager {
     display: none; }
 
-.filter-bar {
-  background: #d7e8ba;
-  border-radius: 5px; }
-  .filter-bar ul {
-    margin: 0;
-    padding: 0; }
-    .filter-bar ul li {
-      list-style-type: none;
-      display: inline-block;
-      border-right: 1px solid #cedbb8;
-      padding: 18px 20px;
-      color: #7f8c76;
-      text-transform: uppercase; }
-      .filter-bar ul li::after {
-        content: " " "";
-        background-image: url("../images/filter-arrow-green.png");
-        background-repeat: no-repeat;
-        width: 33px;
-        height: 33px;
-        position: relative;
-        padding: 11px;
-        top: 16px;
-        left: 10px; }
+.filter-section {
+  background: #f8f9fb; }
+  .filter-section .filter-bar {
+    background: #d7e8ba;
+    border-radius: 5px; }
+    .filter-section .filter-bar ul {
+      margin: 0;
+      padding: 0; }
+      .filter-section .filter-bar ul li {
+        list-style-type: none;
+        display: inline-block;
+        border-right: 1px solid #cedbb8;
+        padding: 18px 20px;
+        color: #7f8c76;
+        text-transform: uppercase; }
+        .filter-section .filter-bar ul li::after {
+          content: " " "";
+          background-image: url("../images/filter-arrow-green.png");
+          background-repeat: no-repeat;
+          width: 33px;
+          height: 33px;
+          position: relative;
+          padding: 11px;
+          top: 16px;
+          left: 10px; }
 
 .extra-marging {
   margin-right: 85px; }
 
 .products-section {
-  padding: 66px 0; }
+  padding: 66px 0;
+  background: #f8f9fb; }
   .products-section .product-card {
     background: #fff;
-    padding: 10px; }
+    padding: 10px;
+    min-height: 435px; }
     .products-section .product-card:last-of-type {
       padding-right: 10px !important; }
     .products-section .product-card .price {
